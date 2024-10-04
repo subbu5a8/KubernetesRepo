@@ -5,12 +5,12 @@
 ```bash
 $ adduser username
 #Example
-adduser siva
+adduser Subbu
 
 #Add the new user to the sudo group 
 usermod -aG sudo username
 #Example
-usermod -aG sudo siva
+usermod -aG sudo Subbu
 
 Switch to newly created user:
 su - username
